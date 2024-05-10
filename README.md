@@ -60,6 +60,7 @@ The next step, once we have everything set up as we want it, is to start adding 
  <p align="center">RoboDK operation tree.
 
 We can see that at the end of everything, we have a selected Python file. This will be responsible for allowing us to manipulate the robot to type the desired word.
+It is also worth mentioning that for this case, we did not include the use of spaces or other special characters. However, if necessary, the corresponding targets can be generated and it should theoretically work without any extra changes to the code.
 
 To run this project you need the following components:
 
