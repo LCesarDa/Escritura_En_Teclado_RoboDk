@@ -38,6 +38,8 @@ Since we are using the UR5 robot in this case, we can obtain its forward kinemat
 
  <img src="Multimedia/DH.jpeg" alt="Image Open" style="width:30%;"> 
 
+ <p align="center">Denavid Hartenberg parameters obtained manually with the robot's zero position.
+
 To run this project you need the following components:
 
 - RoboDK
