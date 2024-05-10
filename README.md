@@ -34,6 +34,8 @@ Programming in RoboDK provides precise control over the robot's behavior, enabli
 # Robot kinematics
 ## Denavit-Hartenberg parameters
 Since we are using the UR5 robot in this case, we can obtain its forward kinematics manually or using Peter Corke's toolbox in MATLAB. With this, we obtain the following results
+
+
  <img src="Multimedia/DH.jpeg" alt="Image Open" style="width:30%;"> 
 
 To run this project you need the following components:
