@@ -1,20 +1,20 @@
-RoboDk program to write in a keyboard the inputed word
+
 <a name="top"></a>
-# Keyboard_Input_RoboDK
+# Keyboard Input RoboDK
 <p align="center">
-  <img src="Images/inicio.png" alt="Image Open" style="width:30%;"> 
+  <img src="Multimedia/inicio.png" alt="Image Open" style="width:30%;"> 
 </p>
 
 
-<p align="center">This is an implementation of a pick and place solution for the OpenManipulatorX.
+<p align="center">Typing a word using a UR5 and a standard keyboard using a Python program in RoboDK.
 
 ## Project Overview
-The Open MANIPULATOR-X robot based on ROS is one of the most commonly used robotic arms for training in the industry. In this project, a Pick and Place operation that will be performed using this robot arm. The goal is to create a program that instructs the robotic arm to pick up a series of objects and place them at a specific point in the workspace. Prior to this, a thorough analysis of the arm will be conducted to obtain its direct and inverse kinematics, and will be done using Matlab software in collaboration with the Robotics Toolbox plug-in developed by Peter Corke. For the Open MANIPULATOR-X will be used the teleoperation funtions to create a new project that execute the Pick and Place.
+Programming in RoboDK provides precise control over the robot's behavior, enabling complex movements, conditional logic, and task automation. That's why Python programming is utilized in this project to enable our UR5 robot to type any word on the keyboard. The programming code will prompt the user to input the word to be typed by the UR5 robot when it reaches a specified position.
   
   
   
 ## Content List
-- [Pick and Place](#pick-and-place)  
+- [Keyboard Input RoboDK](#keyboard-input-robodk)  
 - [Project Overview](#project-overview)  
 - [Requirements](#requirements)
 - [Robot kinematics](#robot-kinematics)
@@ -32,9 +32,21 @@ The Open MANIPULATOR-X robot based on ROS is one of the most commonly used robot
 
 To run this project you need the following components:
 
-- Ubuntu 20.04.
-- ROS Noetic.
-- Matlab.
-- OpenManipulatorX.
-- Open CR.
-- Gazebo (Optional)
+- RoboDK
+- Virtual Robot UR5
+- Virtual Table
+- CAD of a Keyboard
+- Python program
+## Contact 
+
+Authors:
+
+Luis Fernando Cesar Denicia - luis.cesarda@udlap.mx - Github: LCesarDa
+
+Jordán Joaquín Coronel Pérez - jordan.coronelpz@udlap.mx - Github: 
+
+Jorge Zapata Hernández - jorge.zapatahz@udlap.mx - Github: JorgeZH1905
+
+Project Link:
+
+
