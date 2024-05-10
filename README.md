@@ -18,7 +18,6 @@ Programming in RoboDK provides precise control over the robot's behavior, enabli
 - [Project Overview](#project-overview)  
 - [Requirements](#requirements)
 - [Initial Setup](#initial-setup)
-- [Project Development](#project-development)
 - [Contact](#contact)
 
 ## Requirements
@@ -42,8 +41,6 @@ Since we are using the UR5 robot in this case, we can obtain its forward kinemat
 
 ## Initial Setup
 
-
-## Installation
 First, we need to open RoboDK and generate the workspace. In this case, we decided to use the UR5, a welding table, and an STL CAD model of an HP keyboard. Actually, this program can be done solely with the robot and it's not necessarily required to use the UR5. It can be any robot from another brand or with different degrees of freedom, as long as it can reach the targets. For example, a SCARA robot might have trouble doing this, as well as a one-degree-of-freedom robot
  
 <p align="center">
