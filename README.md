@@ -30,7 +30,7 @@ To run this project you need the following components:
 - CAD of a Keyboard
 - Python program
 
-# Robot kinematics
+## Robot kinematics
 ## Denavit-Hartenberg parameters
 Since we are using the UR5 robot in this case, we can obtain its forward kinematics manually or using Peter Corke's toolbox in MATLAB. With this, we obtain the following results
 
