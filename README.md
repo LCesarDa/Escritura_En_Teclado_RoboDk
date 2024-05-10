@@ -50,7 +50,8 @@ First, we need to open RoboDK and generate the workspace. In this case, we decid
 <p align="center">
  <img src="Multimedia/workspace.jpeg" alt="Image Open" style="width:30%;"> 
 
- <p align="center">Denavid Hartenberg parameters obtained manually with the robot's zero position.
+ <p align="center">Robot workspace.
+ 
 
 
 To run this project you need the following components:
