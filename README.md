@@ -54,6 +54,11 @@ First, we need to open RoboDK and generate the workspace. In this case, we decid
  
 The next step, once we have everything set up as we want it, is to start adding the targets. It's worth noting that we used a closed gripper to simulate a finger pressing the keyboard, but it can definitely be done without it, although visually it may not look very good. In this case, we assigned three movements to set the positions of Home, Ready, and Approach that we can use for all movements. Below is the tree of operations along with the components used.
 
+<p align="center">
+ <img src="Multimedia/arbol.jpeg" alt="Image Open" style="width:30%;"> 
+
+ <p align="center">RoboDK operation tree.
+
 
 To run this project you need the following components:
 
@@ -68,7 +73,7 @@ Authors:
 
 Luis Fernando Cesar Denicia - luis.cesarda@udlap.mx - Github: LCesarDa
 
-Jordán Joaquín Coronel Pérez - jordan.coronelpz@udlap.mx - Github: 
+Jordán Joaquín Coronel Pérez - jordan.coronelpz@udlap.mx - Github: JordanCoronel
 
 Jorge Zapata Hernández - jorge.zapatahz@udlap.mx - Github: JorgeZH1905
 
