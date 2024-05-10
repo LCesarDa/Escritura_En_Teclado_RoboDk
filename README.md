@@ -63,8 +63,6 @@ It is also worth mentioning that for this case, we did not include the use of sp
 
 This Python script utilizes the RoboDK API to control a robotic arm, specifically targeting a UR5 robot. The script allows for movement to predefined targets and custom user-defined targets.
 
-## Getting Started
-
 ### Prerequisites
 
 - Ensure you have RoboDK installed and configured.
