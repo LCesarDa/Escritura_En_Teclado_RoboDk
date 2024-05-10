@@ -67,12 +67,12 @@ It is also worth mentioning that for this case, we did not include the use of sp
 
 Authors:
 
-Luis Fernando Cesar Denicia - luis.cesarda@udlap.mx - Github: LCesarDa
+Luis Fernando Cesar Denicia - cesardenicialf@yahoo.com.mx - Github: LCesarDa
 
 Jordán Joaquín Coronel Pérez - jordan.coronelpz@udlap.mx - Github: JordanCoronel
 
 Jorge Zapata Hernández - jorge.zapatahz@udlap.mx - Github: JorgeZH1905
 
-Project Link:
+Project Link: https://github.com/LCesarDa/Escritura_En_Teclado_RoboDk.git
 
 
