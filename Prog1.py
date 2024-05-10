@@ -16,10 +16,10 @@ from robolink import *    # Robot toolbox
 # Link to RoboDK
 # RDK = Robolink()
 
-RDK = Robolink() # establish a link with the simulator
+RDK = Robolink()  # establish a link with the simulator
 robot = RDK.Item('UR5')      # retrieve the robot by name
 
-# Program example:
+# Program execution:
 item = RDK.Item('base')
 if item.Valid():
     print('Item selected: ' + item.Name())
@@ -35,17 +35,17 @@ robot.MoveJ(home)                 # move the robot to the target
 ready = RDK.Item('Ready') 
 robot.MoveJ(ready)               # linear move to the approach position
 
-ins_call = mbox("Enter a program call to add after each movement", entry = "SynchRobot")
+ins_call = mbox("Enter a program call to add after each movement", entry = "Name")
 
-for caracter in ins_call:
+for caracter in ins_call:  
     if caracter.isalpha():
         target = RDK.Item(caracter.upper())
         approach = target.Pose()*transl(0,0,-100)
-        robot.MoveJ(approach)               # linear move to the approach position
+        robot.MoveJ(approach)               
         time.sleep(1)
         robot.MoveL(target)
         time.sleep(1)
         robot.MoveL(approach)
 
-robot.MoveJ(ready)               # linear move to the approach position
-robot.MoveJ(home)                 # move the robot to the target
+robot.MoveJ(ready)               
+robot.MoveJ(home)                
