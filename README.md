@@ -52,6 +52,7 @@ First, we need to open RoboDK and generate the workspace. In this case, we decid
 
  <p align="center">Robot workspace.
  
+The next step, once we have everything set up as we want it, is to start adding the targets. It's worth noting that we used a closed gripper to simulate a finger pressing the keyboard, but it can definitely be done without it, although visually it may not look very good. In this case, we assigned three movements to set the positions of Home, Ready, and Approach that we can use for all movements. Below is the tree of operations along with the components used.
 
 
 To run this project you need the following components:
