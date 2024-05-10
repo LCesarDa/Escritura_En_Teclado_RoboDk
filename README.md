@@ -17,6 +17,7 @@ Programming in RoboDK provides precise control over the robot's behavior, enabli
 - [Keyboard Input RoboDK](#keyboard-input-robodk)  
 - [Project Overview](#project-overview)  
 - [Requirements](#requirements)
+- [Denavit-Hartenberg parameters](#denavit-hartenberg-parameters)
 - [Initial Setup](#initial-setup)
 - [Contact](#contact)
 
@@ -29,12 +30,11 @@ To run this project you need the following components:
 - CAD of a Keyboard
 - Python program
 
-## Robot kinematics
 ## Denavit-Hartenberg parameters
 Since we are using the UR5 robot in this case, we can obtain its forward kinematics manually or using Peter Corke's toolbox in MATLAB. With this, we obtain the following results
 
 <p align="center">
- <img src="Multimedia/DH.jpeg" alt="Image Open" style="width:30%;"> 
+ <img src="Multimedia/DH.jpeg" alt="Image Open" style="width:40%;"> 
 
  <p align="center">Denavid Hartenberg parameters obtained manually with the robot's zero position.
 
@@ -44,14 +44,14 @@ Since we are using the UR5 robot in this case, we can obtain its forward kinemat
 First, we need to open RoboDK and generate the workspace. In this case, we decided to use the UR5, a welding table, and an STL CAD model of an HP keyboard. Actually, this program can be done solely with the robot and it's not necessarily required to use the UR5. It can be any robot from another brand or with different degrees of freedom, as long as it can reach the targets. For example, a SCARA robot might have trouble doing this, as well as a one-degree-of-freedom robot
  
 <p align="center">
- <img src="Multimedia/workspace.jpeg" alt="Image Open" style="width:30%;"> 
+ <img src="Multimedia/workspace.jpeg" alt="Image Open" style="width:70%;"> 
 
  <p align="center">Robot workspace.
  
 The next step, once we have everything set up as we want it, is to start adding the targets. It's worth noting that we used a closed gripper to simulate a finger pressing the keyboard, but it can definitely be done without it, although visually it may not look very good. In this case, we assigned three movements to set the positions of Home, Ready, and Approach that we can use for all movements. Below is the tree of operations along with the components used.
 
 <p align="center">
- <img src="Multimedia/arbol.jpeg" alt="Image Open" style="width:30%;"> 
+ <img src="Multimedia/arbol.jpeg" alt="Image Open" style="width:50%;"> 
 
  <p align="center">RoboDK operation tree.
 
