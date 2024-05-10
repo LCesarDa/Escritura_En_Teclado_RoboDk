@@ -61,7 +61,34 @@ It is also worth mentioning that for this case, we did not include the use of sp
 
 ## Python programming
 
+This Python script utilizes the RoboDK API to control a robotic arm, specifically targeting a UR5 robot. The script allows for movement to predefined targets and custom user-defined targets.
 
+## Getting Started
+
+### Prerequisites
+
+- Ensure you have RoboDK installed and configured.
+- Python with RoboDK API must be installed.
+
+### Usage
+
+1. Open the Python script in a Python IDE or text editor.
+2. Run the script (typically by pressing F5).
+3. Follow the prompts to input a program call to add after each movement.
+4. The robot will move accordingly based on the input provided.
+
+### Additional Information
+
+- **Documentation:** Detailed documentation for the RoboDK API is available [here](https://robodk.com/doc/en/RoboDK-API.html).
+- **Reference:** For specific Python API references, refer to [this link](https://robodk.com/doc/en/PythonAPI/robodk.html).
+- **Note:** You can find further details and guidelines within the script comments.
+
+## Functionality
+
+- The script establishes a connection with the RoboDK simulator.
+- It retrieves the UR5 robot and predefined target items.
+- Users need to input custom string names to execute after being in "Ready" position.
+- The robot moves to approach positions for each letter typped in the input and back to ready and home positions as specified in the script.
 
 ## Contact 
 
