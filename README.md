@@ -40,6 +40,14 @@ Since we are using the UR5 robot in this case, we can obtain its forward kinemat
 
  <p align="center">Denavid Hartenberg parameters obtained manually with the robot's zero position.
 
+
+
+## Initial Setup
+
+## Installation
+First, we need to open RoboDK and generate the workspace. In this case, we decided to use the UR5, a welding table, and an STL CAD model of an HP keyboard. Actually, this program can be done solely with the robot and it's not necessarily required to use the UR5. It can be any robot from another brand or with different degrees of freedom, as long as it can reach the targets. For example, a SCARA robot might have trouble doing this, as well as a one-degree-of-freedom robot
+ 
+
 To run this project you need the following components:
 
 - RoboDK
