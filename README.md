@@ -2,7 +2,7 @@ RoboDk program to write in a keyboard the inputed word
 <a name="top"></a>
 # Keyboard_Input_RoboDK
 <p align="center">
-  <img src="Images/Keyboard" alt="Image Open" style="width:30%;"> 
+  <img src="Images/inicio.png" alt="Image Open" style="width:30%;"> 
 </p>
 
 
