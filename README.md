@@ -17,17 +17,10 @@ Programming in RoboDK provides precise control over the robot's behavior, enabli
 - [Keyboard Input RoboDK](#keyboard-input-robodk)  
 - [Project Overview](#project-overview)  
 - [Requirements](#requirements)
-- [Robot kinematics](#robot-kinematics)
-  - [Denavit-Hartenberg parameters](#denavit-hartenberg-parameters)
-  - [Obtaining and Validation of the Forward Kinematics and Inverse Kinematics using Matlab](#obtaining-and-validation-of-the-forward-kinematics-and-inverse-kinematics-using-matlab)
 - [Initial Setup](#initial-setup)
-  - [Installation](#installation)
-  - [Open CR](#open-cr)
-  - [Simulation](#simulation)
-  - [Changes in the original project](#changes-in-the-original-project)
-- [Add New Things](#add-new-things)
-- [Important Links](#important-links)
+- [Project Development](#project-development)
 - [Contact](#contact)
+
 ## Requirements
 
 
